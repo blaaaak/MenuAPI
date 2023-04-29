@@ -1239,7 +1239,7 @@ namespace MenuAPI
                 SetTextColour(255, 255, 255, 255);
                 SetTextScale(size, size);
                 SetTextJustification(0);
-                AddTextComponentSubstringPlayerName(MenuTitle);
+                //AddTextComponentSubstringPlayerName(MenuTitle);
                 if (LeftAligned)
                 {
                     EndTextCommandDisplayText(((headerSize.Key / 2f) / MenuController.ScreenWidth), y - (GetTextScaleHeight(size, font) / 2f));
